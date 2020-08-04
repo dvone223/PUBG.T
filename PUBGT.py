@@ -259,7 +259,7 @@
     "    return render_template('teaming.html',isTeaming=isTeaming,count=count, tdCount = tdCount, totalCount = totalCount)\n",
     "\n",
     "if __name__ == '__main__':\n",
-    "    app.run(host = '0.0.0.0', port = 5898)\n"
+    "    app.run(host = '0.0.0.0')\n"
    ]
   },
   {
